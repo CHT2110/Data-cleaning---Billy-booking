@@ -1,0 +1,21 @@
+import pandas as pd
+
+booking_file = "C:/Users/Carsten/Desktop/Billy Data/events-export.csv"
+booking_data = pd.read_csv(booking_file, usecols = ["User Name",
+                                                    "Invitee First Name",
+                                                    "Invitee Last Name",
+                                                    "Invitee Email",
+                                                    "Event Type Name",
+                                                    "Start Date & Time",
+                                                    "End Date & Time"])
+
+booking_data
+
+booking_data.dropna(inplace = True)
+
+booking_data
+
+booking_data.drop()
+
+file_name = "Booking_Data.xlsx"
+booking_data.to_excel(file_name)
