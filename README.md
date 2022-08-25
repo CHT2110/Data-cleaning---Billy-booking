@@ -3,7 +3,7 @@ Data cleaning of Billy's booking data
 
 # Problem statement
 
-At my job I work with text files from 7 different sales channels that I clean manually in Exccel for analysis. This is very time consuming and can take up to 30-40 minutes. In addition, some of the various sales channels add or remove collumns which mess up the pre-made formulas in my spredsheets when I import the data to Excel. 
+At my job I work with text files from 7 different sales channels that I clean manually in Excel for analysis. This is very time consuming and can take up to 30-40 minutes. In addition, some of the various sales channels add or remove collumns which mess up the pre-made formulas in my spredsheets when I import the data to Excel. 
 
 # Description 
 
